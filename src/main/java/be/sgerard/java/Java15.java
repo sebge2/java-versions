@@ -5,11 +5,6 @@ package be.sgerard.java;
  */
 public class Java15 {
 
-    public static void main(String[] args) throws Exception {
-        hiddenClasses();
-    }
-
-    private static void hiddenClasses() throws Exception {
-        // TODO
+    public static void main(String[] args) {
     }
 }

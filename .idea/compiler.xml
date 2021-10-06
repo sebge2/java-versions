@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="be.sgerard.test.java-versions" target="16" />
+      <module name="be.sgerard.test.java-versions" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

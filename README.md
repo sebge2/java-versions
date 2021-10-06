@@ -78,8 +78,12 @@
 - Records
 - Pattern Matching Type Checks
 - Sealed classes (Second preview)
+- Vector API (Incubator)
 
 
 ## Java 17 LTS (September 2021)
 - Sealed classes
-- ?
+- Vector API (Incubator)
+- Pattern Matching for switch (preview)
+
+[More](https://medium.com/javarevisited/java-17-whats-new-removed-and-preview-in-jdk-17-62db367e62ee)
