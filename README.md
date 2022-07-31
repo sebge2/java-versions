@@ -78,12 +78,22 @@
 - Records
 - Pattern Matching Type Checks
 - Sealed classes (Second preview)
-- Vector API (Incubator)
+- Vector API (First Incubator)
 
 
 ## Java 17 LTS (September 2021)
 - Sealed classes
-- Vector API (Incubator)
+- Vector API (Second Incubator)
 - Pattern Matching for switch (preview)
 
 [More](https://medium.com/javarevisited/java-17-whats-new-removed-and-preview-in-jdk-17-62db367e62ee)
+
+
+## Java 18 (March 2022)
+
+- UTF-8 by Default
+- Simple Web Server
+- Code Snippets in Java API Documentation
+- Vector API (Third Incubator)
+
+[More](https://www.developer.com/java/java-18-features/)
