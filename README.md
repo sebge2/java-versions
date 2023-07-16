@@ -97,3 +97,16 @@
 - Vector API (Third Incubator)
 
 [More](https://www.developer.com/java/java-18-features/)
+
+
+## Java 19
+
+- Nested Record Pattern Matching (Preview)
+- Pattern Matching for Switch (Preview)
+- Virtual Threads (Preview)
+
+[More](https://mkyong.com/java/what-is-new-in-java-19/)
+[Voxxed Days](https://www.youtube.com/watch?v=PBCV50tUlJQ&)
+
+
+## Java 20

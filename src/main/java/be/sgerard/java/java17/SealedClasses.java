@@ -1,12 +1,8 @@
-package be.sgerard.java;
+package be.sgerard.java.java17;
 
-public class Java17 {
+public class SealedClasses {
 
     public static void main(String[] args) {
-        sealedClasses();
-    }
-
-    private static void sealedClasses() {
         final Circle circle = new Circle(42.0d);
 
         System.out.println("Area: " + circle.getArea());

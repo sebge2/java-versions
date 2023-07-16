@@ -10,8 +10,5 @@
         <module name="be.sgerard.test.java-versions" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="be.sgerard.test.java-versions" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
