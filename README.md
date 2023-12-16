@@ -99,7 +99,7 @@
 [More](https://www.developer.com/java/java-18-features/)
 
 
-## Java 19
+## Java 19 (September 2022)
 
 - Nested Record Pattern Matching (Preview)
 - Pattern Matching for Switch (Preview)
@@ -109,4 +109,17 @@
 [Voxxed Days](https://www.youtube.com/watch?v=PBCV50tUlJQ&)
 
 
-## Java 20
+## Java 20 (March 2023)
+
+- Record Patterns improvements: usage in for-each
+
+[More](https://www.baeldung.com/java-20-new-features)
+
+
+## Java 21 LTS (September 2023)
+
+- Unnamed Patterns and Variables (Preview)
+- Unnamed Classes and Instance Main Methods (Preview)
+- String Templates (Preview)
+
+[More](https://symflower.com/en/company/blog/2023/what-is-new-in-java-21)
