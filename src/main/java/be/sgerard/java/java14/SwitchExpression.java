@@ -1,16 +1,8 @@
-package be.sgerard.java;
+package be.sgerard.java.java14;
 
-/**
- * @author Sebastien Gerard
- */
-public class Java14 {
+public class SwitchExpression {
 
     public static void main(String[] args) {
-        switchExpressions();
-        textBlocks();;
-    }
-
-    private static void switchExpressions() {
         var day = Day.FRIDAY;
 
         var mySwitchValue = switch (day) {
@@ -24,15 +16,6 @@ public class Java14 {
         };
 
         System.out.println(mySwitchValue);
-    }
-
-    private static void textBlocks(){
-        var text = """
-                multiple
-				line
-				""";
-
-        System.out.println(text);
     }
 
     private enum Day {
