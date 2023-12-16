@@ -1,37 +1,15 @@
-package be.sgerard.java;
+package be.sgerard.java.java16;
 
-/**
- * @author Sebastien Gerard
- */
-public class Java16 {
+public class PatternMatching {
 
     public static void main(String[] args) {
-        records();
-        patternMatchingTypeChecks();
-    }
-
-    private static void records() {
-        final Person johnDoe = new Person("John Doe", 33);
-
-        System.out.println("name " + johnDoe.name() + " age = " + johnDoe.age());
-    }
-
-    private static void patternMatchingTypeChecks() {
         final Shape shape1 = new Square(4.0f);
         final Shape shape2 = new Rectangle(4.0f, 3.0f);
 
         if (shape1 instanceof Square square) {
             System.out.println(square.getSize());
-        } else if(shape2 instanceof Rectangle rectangle){
+        } else if (shape2 instanceof Rectangle rectangle) {
             System.out.println(rectangle.getLength() + "x" + rectangle.getWidth());
-        }
-    }
-
-    public record Person(String name, int age) {
-        public Person {
-            if (age < 0) {
-                throw new IllegalArgumentException("Age cannot be negative");
-            }
         }
     }
 
@@ -79,4 +57,5 @@ public class Java16 {
             return getLength() * getWidth();
         }
     }
+
 }
