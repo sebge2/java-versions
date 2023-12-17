@@ -123,3 +123,4 @@
 - String Templates (Preview)
 
 [More](https://symflower.com/en/company/blog/2023/what-is-new-in-java-21)
+[More](https://hanno.codes/2023/09/19/java-21-release-day/)

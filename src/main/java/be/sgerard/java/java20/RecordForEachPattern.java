@@ -19,9 +19,9 @@ public class RecordForEachPattern {
                 )
         );
 
-        for (Rectangle(ColoredPoint(Point(int xUpperLeft, int yUpperLeft), Color colorUpperLeft), ColoredPoint lowerRight) : rectangles) {
-            System.out.printf("The point %s,%s has color %s.\n", xUpperLeft, yUpperLeft, colorUpperLeft);
-        }
+//        for (Rectangle(ColoredPoint(Point(int xUpperLeft, int yUpperLeft), Color colorUpperLeft), ColoredPoint lowerRight) : rectangles) {
+//            System.out.printf("The point %s,%s has color %s.\n", xUpperLeft, yUpperLeft, colorUpperLeft);
+//        }
     }
 
     record Point(int x, int y) {
