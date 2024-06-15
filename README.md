@@ -124,3 +124,19 @@
 
 [More](https://symflower.com/en/company/blog/2023/what-is-new-in-java-21)
 [More](https://hanno.codes/2023/09/19/java-21-release-day/)
+
+
+## Java 22 LTS (March 2024)
+
+- Unnamed Patterns and Variables (Final)
+- Foreign Function & Memory API
+- Stream Gatherers
+- Class-File API
+- Statements Before Super (Preview)
+- Structured Concurrency (Preview)
+- Scoped Values (Preview)
+- Implicitly Declared Classes and Instance Main Methods (Preview)
+- Vector API (7th Incubating version)
+
+[More](https://medium.com/@pravin3c/java-22-new-features-with-examples-ea49b3a0ab56)
+[Scoped Values](https://www.infoworld.com/article/3713261/understanding-javas-new-scopedvalue.html)
