@@ -7,35 +7,38 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <java.version>22</java.version>
+        <java.version>24</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <lombok.version>1.18.38</lombok.version>
+        <junit.vesion>5.11.4</junit.vesion>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
+            <version>${lombok.version}</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.4.2</version>
+            <version>${junit.vesion}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
-            <version>5.4.2</version>
+            <version>${junit.vesion}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.4.2</version>
+            <version>${junit.vesion}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -45,7 +48,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.13.0</version>
 
                 <configuration>
                     <enablePreview>true</enablePreview>
@@ -58,7 +61,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.5.2</version>
                 <configuration>
                     <argLine>--enable-preview</argLine>
                 </configuration>

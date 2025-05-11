@@ -140,3 +140,19 @@
 
 [More](https://medium.com/@pravin3c/java-22-new-features-with-examples-ea49b3a0ab56)
 [Scoped Values](https://www.infoworld.com/article/3713261/understanding-javas-new-scopedvalue.html)
+
+
+## Java 23 (September 2024)
+
+- Scoped Value (Preview)
+- Primitive Types in Patterns, instanceof, and switch (Preview)
+
+[More](https://pretius.com/blog/java-23-features/)
+
+
+## Java 24 (March 2025)
+
+- Stream Gatherers
+- Primitive Types in Patterns, instanceof, and switch (Preview)
+
+[More](https://codefarm0.medium.com/java-24-features-a-deep-dive-into-whats-coming-81e77382b39c)
