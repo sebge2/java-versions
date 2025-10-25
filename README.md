@@ -156,3 +156,11 @@
 - Primitive Types in Patterns, instanceof, and switch (Preview)
 
 [More](https://codefarm0.medium.com/java-24-features-a-deep-dive-into-whats-coming-81e77382b39c)
+
+
+## Java 25 (September 2025)
+
+- Primitive instanceof in if
+- Scoped Values
+
+[More](https://www.baeldung.com/java-25-features)
